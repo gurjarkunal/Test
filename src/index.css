@@ -1,0 +1,347 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+  /* text-align: center; */
+}
+
+.card{
+  border: .5px solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 71%, 0.315);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+
+img{
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+h1{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: rgb(163, 163, 163)
+}
+
+p{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: rgb(255, 255, 255)
+}
+
+.ullu{
+  margin: 0;
+  margin-top: 5px;
+  color: red;
+}
+
+.items_category{
+  border: 1px solid white;
+  text-align: center;
+  background-color: hsl(185, 100%, 50%);
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.items_list li{
+  font-size: 1.3em;
+  list-style: none;
+  color: hsl(0, 0, 25%);
+  text-align: center;
+  margin: 0;
+}
+
+.items_list li:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.btn{
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+.prof{
+  max-width: 45%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn_name{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.counter-container{
+  text-align: center;
+}
+
+.count_display{
+  width: 50%;
+  padding: 10px;
+  font-size: 10em;
+  margin: 20px;
+  margin-left: 100px;
+  border-radius: 10px;
+  background-color: aqua;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.btn_counter{
+  font-size: 1.5rem;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  background-color: aqua;
+}
+.btn_counter{
+  font-size: 1.5rem;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  background-color: aqua;
+}
+
+.btn_counter:hover{
+  box-shadow: 1px 0px 50px 5px aqua;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+.color_picker{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  font-size: 3rem;
+  margin: 50px;
+}
+
+.color_display{
+  border: 3px solid gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  transition: .5 ease;
+}
+
+.color_display p{
+  font-size: 2rem;
+  text-align: center;
+}
+
+label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+}
+
+.carInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.car_details{
+  font-size: 1.2rem;
+}
+
+.carInfo input{
+  font-size: 1.2rem;
+  width: 60%;
+}
+
+.btn_car{
+  width: 25%;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn_car:hover{
+  background-color: rgb(61, 22, 100);
+  box-shadow: 0 0 50px 5px rebeccapurple;
+}
+
+.list{
+  font-size: 1.5rem;
+}
+
+.food_in{
+  font-size: 1.2rem;
+  width: 60%;
+}
+
+.food{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+}
+
+.food_btn{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn1{
+  margin-right: 20px;
+  font-size: 1.2rem;
+  color: black;
+  background-color: rgb(47, 255, 68);
+}
+
+.btn1:hover{
+  box-shadow: 0 0 50px 5px rgb(47, 255, 68);
+}
+
+.btn2{
+  font-size: 1.2rem;
+  background-color: red;
+}
+
+.btn2:hover{
+  box-shadow: 0 0 50px 5px red;
+}
+
+.car_heading{
+  margin: 10px;
+}
+
+.todo{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.todo_btn{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: backgound-color 0.5 ease;
+}
+
+.todo_add_btn{
+  color: black;
+  margin-left: 10px;
+  background-color: rgb(0, 255, 0);
+}
+.todo_add_btn:hover{
+  color: black;
+  background-color: rgb(0, 181, 0);
+  box-shadow: 0 0 20px 5px rgb(0, 255, 0);
+}
+
+.todo_delete_btn{
+  color: black;
+  background-color: rgb(255, 0, 0);
+}
+.todo_delete_btn:hover{
+  color: black;
+  background-color: rgb(181, 0, 0);
+  box-shadow: 0 0 20px 5px rgb(255, 0, 0);
+}
+
+.todo_up_btn{
+  color: black;
+  background-color: rgb(3, 255, 255);
+}
+.todo_up_btn:hover{
+  color: black;
+  background-color: rgb(0, 213, 206);
+  box-shadow: 0 0 20px 5px rgb(0, 251, 255);
+}
+
+.todo_down_btn{
+  color: black;
+  background-color: rgb(3, 255, 255);
+}
+.todo_down_btn:hover{
+  color: black;
+  background-color: rgb(0, 213, 206);
+  box-shadow: 0 0 20px 5px rgb(0, 251, 255);
+}
+
+.todo_in{
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 5px;
+  color: white;
+}
+
+ol{
+  padding: 0;
+}
+
+.li{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 3px solid rgb(196, 196, 196);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+}
+
+.todo_delete_btn, .todo_up_btn, .todo_down_btn{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
